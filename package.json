@@ -1,10 +1,14 @@
 {
   "name": "learning-express-the-harder-way",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learn and practice the Express Js in the hard Way .... Made By Manojkumar C Fresh Spar Technologies ..",
   "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +17,7 @@
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2",
     "pug": "^3.0.2"
   }
 }
