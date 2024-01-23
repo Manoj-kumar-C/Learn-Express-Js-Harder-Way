@@ -19,3 +19,11 @@ Typescript, JWT, Express Js, Mongoose etc ..
   JEST    - Unit Testing ..
   Cypress - End to End Testing .
 ```
+
+# CI/CD Pipeline
+
+```
+   Github Actions & Workflows 
+
+   Cypress Secret CI Actions 
+```
