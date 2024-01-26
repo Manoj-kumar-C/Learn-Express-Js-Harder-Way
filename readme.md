@@ -27,3 +27,9 @@ Typescript, JWT, Express Js, Mongoose etc ..
 
    Cypress Secret CI Actions 
 ```
+
+# Deployment 
+
+```
+Vercel -  Serverless
+```
