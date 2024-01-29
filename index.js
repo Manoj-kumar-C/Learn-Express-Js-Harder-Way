@@ -8,11 +8,11 @@ app.use(express.json())
 
 // importing routes
 
-const home = require("./routes/home")
+const home = require("./src/routes/home")
 
 
 
-app.set("views", "./views")
+app.set("views", "./src/views")
 app.get("/", function(req,res){
     res.send("Home Page")
 })
