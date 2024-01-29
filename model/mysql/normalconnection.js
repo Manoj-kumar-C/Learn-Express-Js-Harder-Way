@@ -1,11 +1,12 @@
-const mysql = require('mysql');
+const mysql = require('mysql2');
 
 // Create a connection to the MySQL database
 const connection = mysql.createConnection({
-  host: 'sql.freedb.tech',
-  user: 'freedb_manojkumaruser',
-  password: 'WX*5ErrZF@Eqa3&',
-  database: 'freedb_manojkumar'
+  host: 'sql6.freemysqlhosting.net',
+  user: 'sql6680402',
+  password: 'JtAUjkLa86',
+  database: 'sql6680402',
+  port: 3306
 });
 
 // Connect to the database 
@@ -15,22 +16,13 @@ connection.connect((err) => {
     return;
   }
   console.log('Connected to MySQL database');
-});
 
-// Perform a simple query
-connection.query('SELECT 1 + 1 AS solution', (error, results, fields) => {
-  if (error) {
-    console.error('Error executing query:', error);
-    throw error;
-  }
-  console.log('The solution is: ', results[0].solution);
-});
-
-// Close the connection
-connection.end((err) => {
-  if (err) {
-    console.error('Error closing connection:', err);
-    return;
-  }
-  console.log('Connection closed');
+  // Close the connection after connecting (if you want)
+  connection.end((err) => {
+    if (err) {
+      console.error('Error closing connection:', err);
+      return;
+    }
+    console.log('Connection closed');
+  });
 });
