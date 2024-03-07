@@ -1,6 +1,10 @@
 describe("Screen Shot Fresh Spar", ()=>{
-    cy.visit('https://freshspar.com')
+
+    it('Fresh Spar', ()=>{
+        cy.visit('https://www.a2ztechvalley.com')
 
     cy.screenshot("fresh_spar_shot")
+    })
+    
     
 })
