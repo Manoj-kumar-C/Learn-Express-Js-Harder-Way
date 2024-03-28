@@ -6,11 +6,19 @@
 Typescript, JWT, Express Js, Mongoose etc ..
 
 # Mongoose 
-
 ```
- Scheme
- Model
- Collection
+- [X] Scheme
+- [ ] SchemeTypes
+- [ ] Connections
+- [ ] Documents
+- [ ] subDocuments
+- [ ] Model
+- [ ] Collection
+- [ ] Queries
+- [ ] Validation
+- [ ] Middleware
+- [ ] Populate
+- [ ] Discriminate
 ```
 
 ## Testing: 

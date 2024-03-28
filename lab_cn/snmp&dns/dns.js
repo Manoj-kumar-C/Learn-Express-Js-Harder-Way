@@ -2,7 +2,7 @@ const express = require('express');
 const dns = require('dns');
 
 const app = express();
-const PORT = 3000;
+const PORT = 6000;
 
 // Endpoint to resolve IP address from a domain name
 app.get('/resolve', (req, res) => {
