@@ -11,7 +11,7 @@
     "start": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "manojkumar c",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.7",
